@@ -41,7 +41,7 @@ h2 {
 
 }
 .card {
-    background: #191c29;
+    background: #293466;
     width: 100%;
     height: 100%;
     padding: 3px;
@@ -58,7 +58,7 @@ h2 {
 }
 .card:hover {
     color: rgb(88 199 250 / 100%);
-    transition: color 1s;
+    transition: color 2s;
 }
 .card:hover:before, .card:hover:after {
     animation: none;
@@ -108,7 +108,7 @@ h2 {
     }
 }
 a {
-    color: #212534;
+    color: #ddeef5;
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
