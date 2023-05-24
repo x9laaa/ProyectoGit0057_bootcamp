@@ -25,6 +25,8 @@ header {
     align-items: center;
 }
 h2 {
+    font-family: cursive;
+
     color: rgb(88 199 250 / 100%);
 }
 .container {
@@ -108,14 +110,12 @@ h2 {
     }
 }
 a {
-    color: #212534;
+    color: rgb(88 199 250 / 100%);
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: cursive;
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
-
-
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
