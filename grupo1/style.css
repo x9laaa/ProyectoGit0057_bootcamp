@@ -28,9 +28,9 @@
     color: #fff;
 }
 
-section {
+/* section {
     height: 70%;
-    width: 45%;
+    width: 50%;
     position: absolute;
     left: 0;
     display: flex;
@@ -43,7 +43,7 @@ section {
 h4 {
     position: relative;
     left: 20%;
-}
+}  */
 
 footer {
     position: absolute;
@@ -52,5 +52,5 @@ footer {
     height: 15%;
     display: grid;
     place-items: center;
-}
+} 
 
