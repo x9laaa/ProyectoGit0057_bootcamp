@@ -58,7 +58,7 @@ h2 {
 }
 .card:hover {
     color: rgb(88 199 250 / 100%);
-    transition: color 2s;
+    transition: color   1s;
 }
 .card:hover:before, .card:hover:after {
     animation: none;
@@ -108,12 +108,18 @@ h2 {
     }
 }
 a {
-    color: #ddeef5;
+    color: #daeaf1;
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 2rem;
+    transition: opacity .2s;
   }
+
+  a:hover {
+    animation: spin 2.5s linear infinite;
+    opacity: 0.2;
+  }  
 
 
 .grid {
@@ -122,6 +128,5 @@ a {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 30px;
-
     margin-top: 50px;
 }
