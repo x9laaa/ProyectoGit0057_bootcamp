@@ -19,16 +19,61 @@ body {
     padding-bottom: 2rem;
     box-sizing: border-box;
   }
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h2 {
-    font-family: cursive;
+.titulo {
+    height: 50px;
+    width: 300px;
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
 
-    color: rgb(88 199 250 / 100%);
+    overflow: hidden;
+    display: flex;
 }
+
+.strong-title{
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+    font-weight: 800;
+    text-align: right;
+    animation: subir 5s infinite;
+}
+@keyframes subir {
+    0%{ margin-top: 0;}
+    40%{ margin-top: 0;}
+    
+    45%{ margin-top: -50px;}
+    90%{ margin-top: -50px;}
+    
+}
+
+.scnd-title {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+    text-align: left;
+    animation: bajar 5s infinite;
+}
+
+@keyframes bajar {
+    0%{ margin-top: -50px;}
+    45%{ margin-top: -50px;}
+    
+    50%{ margin-top: 0;}
+    95%{ margin-top: 0;}
+
+    100%{ margin-top: -50px;}
+    
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -43,7 +88,7 @@ h2 {
 
 }
 .card {
-    background: #191c29;
+    background: #293466;
     width: 100%;
     height: 100%;
     padding: 3px;
@@ -60,7 +105,7 @@ h2 {
 }
 .card:hover {
     color: rgb(88 199 250 / 100%);
-    transition: color 1s;
+    transition: color   1s;
 }
 .card:hover:before, .card:hover:after {
     animation: none;
@@ -110,18 +155,42 @@ h2 {
     }
 }
 a {
+<<<<<<< HEAD
     color: rgb(88 199 250 / 100%);
+=======
+    color: #daeaf1;
+>>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
     text-decoration: none;
     font-family: cursive;
     font-weight: bold;
+<<<<<<< HEAD
     margin-top: 1rem;
   }
+=======
+    margin-top: 2rem;
+    transition: opacity .2s;
+  }
+
+  a:hover {
+    animation: spin 2.5s linear infinite;
+    opacity: 0.2;
+  }  
+
+
+>>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 30px;
-
     margin-top: 50px;
+}
+
+.footer{
+    position: bottom;
+    width: 100%;
+    text-align: justify;
+    padding: 0px 10px;
+    display: flex;
 }
