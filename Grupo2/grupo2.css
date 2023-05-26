@@ -177,3 +177,11 @@ a {
     grid-row-gap: 30px;
     margin-top: 50px;
 }
+
+.footer{
+    position: bottom;
+    width: 100%;
+    text-align: justify;
+    padding: 0px 10px;
+    display: flex;
+}
