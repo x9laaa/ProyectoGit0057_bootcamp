@@ -145,6 +145,14 @@ header {
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+}
   
 @keyframes spin {
     0% {
@@ -155,18 +163,10 @@ header {
     }
 }
 a {
-<<<<<<< HEAD
-    color: rgb(88 199 250 / 100%);
-=======
     color: #daeaf1;
->>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
     text-decoration: none;
     font-family: cursive;
     font-weight: bold;
-<<<<<<< HEAD
-    margin-top: 1rem;
-  }
-=======
     margin-top: 2rem;
     transition: opacity .2s;
   }
@@ -176,21 +176,10 @@ a {
     opacity: 0.2;
   }  
 
-
->>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-    margin-top: 50px;
-}
-
-.footer{
-    position: bottom;
-    width: 100%;
-    text-align: justify;
-    padding: 0px 10px;
-    display: flex;
-}
+    .footer{
+        position: bottom;
+        width: 100%;
+        text-align: justify;
+        padding: 0px 10px;
+        display: flex;
+    }
