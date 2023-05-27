@@ -145,6 +145,15 @@ header {
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+}
+
   
 @keyframes spin {
     0% {
@@ -178,14 +187,6 @@ a {
 
 
 >>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-    margin-top: 50px;
-}
 
 .footer{
     position: bottom;
