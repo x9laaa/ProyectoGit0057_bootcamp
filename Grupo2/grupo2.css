@@ -153,7 +153,6 @@ header {
     grid-row-gap: 30px;
     margin-top: 50px;
 }
-
   
 @keyframes spin {
     0% {
@@ -164,18 +163,10 @@ header {
     }
 }
 a {
-<<<<<<< HEAD
-    color: rgb(88 199 250 / 100%);
-=======
     color: #daeaf1;
->>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
     text-decoration: none;
     font-family: cursive;
     font-weight: bold;
-<<<<<<< HEAD
-    margin-top: 1rem;
-  }
-=======
     margin-top: 2rem;
     transition: opacity .2s;
   }
@@ -186,7 +177,10 @@ a {
   }  
 
 
+<<<<<<< HEAD
 >>>>>>> 7874e80f186e96119b94e3038c6506e8d45f5f9f
+=======
+>>>>>>> 9068b0c9242cae0e0e269d4ae51ece558673e7d7
 
 .footer{
     position: bottom;
