@@ -14,7 +14,7 @@
     background-color: #4B4453;
   }
   body {
-    background-image: url('/ProyectoGit0057/assets/estrella_funable.jpg');
+    background-image: url('../assets/estrella_funable.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
